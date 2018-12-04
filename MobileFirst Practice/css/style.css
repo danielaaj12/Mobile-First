@@ -1,9 +1,39 @@
-.header {
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px; }
+
+body {
+  font-family: "Montserrat", "sans-serif"; }
+
+.container {
+  max-width: 96%;
+  padding: 0 4% 0 4%; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: #ffffff;
+  text-decoration: none; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
+
+body {
+  margin: 0; }
+
+#header {
   background-color: #373c3f; }
 
 .textoHeader {
   margin: 0;
-  padding: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   display: inline-block;
   color: #ebebeb;
   font-size: 4vw; }
@@ -12,19 +42,18 @@
   display: none; }
 
 .logo {
-  width: 10%;
-  padding: 1.7%;
-  padding-right: 0;
+  width: 7%;
+  padding: 2.5%;
   background-color: #202529;
   float: right; }
 
-.logomenu {
-  width: 73%; }
+#contBannerAzul {
+  background-image: linear-gradient(to bottom right, #19b4c6, #078aa4); }
 
 .bannerAzul {
   margin: 0;
-  background-image: linear-gradient(to bottom right, #19b4c6, #078aa4);
-  padding-bottom: 30%; }
+  padding-bottom: 30%;
+  max-width: 80%; }
 
 .h1 {
   width: 81%;
@@ -35,21 +64,25 @@
 
 .correo {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
   padding-left: 7.5%;
-  font-size: 4vw; }
+  font-size: 4vw;
+  float: left; }
 
 .flechas {
   display: inline;
   padding-left: 2%; }
 
 .flecha1 {
-  width: 4%; }
+  width: 4%;
+  padding-right: 12%; }
 
 .bannerMorado {
   background-color: #27212c;
-  color: #9282a0;
-  font-size: 3vw; }
+  color: #ebebeb;
+  font-size: 3vw;
+  padding: 2%;
+  margin: 0%; }
 
 .pbannerMorado {
   margin: 0;
@@ -57,9 +90,10 @@
   display: inline-block; }
 
 .flecha {
-  padding: 6%;
+  padding: 8%;
   background-color: #bc3183;
-  float: right; }
+  float: right;
+  margin: -2%; }
 
 .flecha2 {
   width: 10px; }
@@ -75,29 +109,31 @@
 
 .img2 {
   width: 100%;
-  margin: 0; }
+  margin: 0;
+  margin-top: -4px; }
 
 #contGris {
-  background-color: #ebebeb; }
+  background-color: rgba(255, 255, 255, 0.9); }
 
 .h2 {
   color: #088ca5;
   font-size: 5vw;
-  padding: 12%;
+  padding-top: 12%;
   margin: 0; }
 
 .texto2 {
   color: #515151;
-  padding-left: 10%;
   padding-bottom: 10%;
-  padding-right: 12%;
   margin: 0;
   font-size: 4vw; }
 
 .texto3 {
   display: none; }
 
-@media (min-width: 980px) and (min-width: 980px) {
+.boxGris {
+  margin-top: -4px; }
+
+@media (min-width: 980px) {
   .menuHeader {
     background-color: #373c3f; }
 
@@ -115,7 +151,7 @@
     margin-left: 1%; }
 
   .menu a {
-    color: #ebebeb;
+    color: #9282a0;
     font-size: 1.5vw;
     text-transform: uppercase;
     text-decoration: none; }
@@ -124,8 +160,7 @@
     display: none; }
 
   .logoMenu {
-    display: none;
-    float: right; }
+    display: none; }
 
   .bannerAzul {
     margin: 0;
@@ -141,20 +176,20 @@
 
   .correo {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
     padding-left: 7.5%;
     font-size: 4vw; }
 
   .flechas {
     display: inline;
-    padding-left: 2%; }
+    padding-left: 44%; }
 
   .flecha1 {
     width: 4%; }
 
   .bannerMorado {
     background-color: #27212c;
-    color: #9282a0;
+    color: #ebebeb;
     font-size: 3vw; }
 
   .pbannerMorado {
@@ -190,7 +225,7 @@
     display: inline; }
 
   .boxGris {
-    background-color: #ebebeb; }
+    background-color: rgba(255, 255, 255, 0.9); }
 
   .h2 {
     color: #088ca5;
@@ -198,30 +233,24 @@
     padding: 4%;
     margin: 0; }
 
-  .box {
-    display: inline; }
-
-  .cuadro2 {
-    display: inline; }
-
   .texto2 {
-    display: inline-block;
+    display: block;
     width: 40%;
     color: #515151;
-    padding-left: 4%;
     padding-bottom: 5%;
-    padding-right: 5%;
     margin: -6px;
     font-size: 2vw; }
 
   .texto3 {
-    display: inline-block;
+    display: block;
     width: 40%;
     color: #515151;
-    padding-left: 4%;
     padding-bottom: 5%;
-    padding-right: 5%;
     margin: -6px;
-    font-size: 2vw; } }
+    font-size: 2vw; }
+
+  .box, .cuadro2 {
+    float: left;
+    display: inline; } }
 
 /*# sourceMappingURL=style.css.map */

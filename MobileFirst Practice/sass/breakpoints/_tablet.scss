@@ -1,135 +1,127 @@
+
 @media(min-width:$breakpoint-lg){
-    // Navagacion
-    @media(min-width:$breakpoint-lg){
-        .menuHeader{
-            background-color: $navegacion;
-        }
-        .textoHeader{
-            display: none;
-        }  
-        .menu{
-            padding: 2%;
-            margin: 0;
-        }
-        .menu li{
-            display: inline;
-        }
-        .menu li + li{
-            margin-left: 1%;
-        }
-        .menu a{
-            color: $tNavegacion;
-            font-size: 1.5vw;
-            text-transform: uppercase;
-            text-decoration: none;
-        }
-        .logo{
-            display: none;
-        }
-        .logoMenu{
-            display: none;
-            float:right;
-        }
-        // Banner
-        .bannerAzul{
-            margin: 0;
-            background-image: linear-gradient(to bottom right, $degradado1, $degradado2);
-             padding-bottom: 30%;
-        }
-        .h1{
-            width: 81%;
-            color: $blanco1;
-            font-size: 6vw;
-            margin: 0;
-            padding: 23% 6.8% 2% 7.5%;
-        }
-        .correo{
-            text-decoration: none;
-            color: $blanco;
-            padding-left: 7.5%;
-            font-size: 4vw;
-        }
-        .flechas{
-            display: inline;
-            padding-left: 2%;
-        }
-        .flecha1{
-            width: 4%;
-        }
-        // Text Box
-        .bannerMorado{
-            background-color: $negro1;
-            color: $texto1;
-            font-size: 3vw;
-        }
-        .pbannerMorado{
-            margin: 0;
-            padding: 6% 0 6% 3.5%;
-            display: inline-block;
-        }
-        .flecha{
-            padding: 4%;
-            background-color: $rosado;
-            float: right;
-        }
-        .flecha2{
-            width: 10px;
-        }
-        // Imagenes
-        .flecha3{
-            padding-bottom: 170%;
-            width: 50%;
-        }
-        .pngFlecha{
-            padding: 13% 11% 0%  15%;
-            width: 7%;
-            background-color: $morado;
-            margin: 0;
-            display: inline-block;
-        }
-        .foto{
-            display: inline;
-        }
-        .img2{
-            width:33%;
-            margin: 0;
-            display: inline;
-        }
-        // Final
-        .boxGris{
-            background-color: $tNavegacion;
-        }
-        .h2{
-            color: $tituloS;
-            font-size: 3vw;
-            padding: 4%;
-            margin: 0;
-        }
-        .box{
-            display: inline;
-        }
-        .cuadro2{
-            display: inline;
-        }
-        .texto2{
-            display: inline-block;
-            width: 40%;
-            color:$texto2;
-            padding-left: 4%;
-            padding-bottom: 5%;
-            padding-right:5%; 
-            margin:-6px;
-            font-size: 2vw;
-        }
-        .texto3{
-            display: inline-block;
-            width: 40%;
-            color:$texto2;
-            padding-left: 4%;
-            padding-bottom: 5%;
-            padding-right:5%; 
-            margin: -6px;
-            font-size: 2vw;
-        } 
+    .menuHeader{
+        background-color: #373c3f;
+    }
+    .textoHeader{
+        display: none;
+    }  
+    .menu{
+        padding: 2%;
+        margin: 0;
+    }
+    .menu li{
+        display: inline;
+    }
+    .menu li + li{
+        margin-left: 1%;
+    }
+    .menu a{
+        color: $Tnavigation;
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .logo{
+        display: none;
+    }
+    .logoMenu{
+        display: none;
+        
+    }
+    // Banner
+    .bannerAzul{
+        margin: 0;
+        background-image: linear-gradient(to bottom right, $Adegradado1, $Adegradado2);
+            padding-bottom: 30%;
+    }
+    .h1{
+        width: 81%;
+        color: $blanco;
+        font-size: 6vw;
+        margin: 0;
+        padding: 23% 6.8% 2% 7.5%;
+    }
+    .correo{
+        text-decoration: none;
+        color: $blanco;
+        padding-left: 7.5%;
+        font-size: 4vw;
+    }
+    .flechas{
+        display: inline;
+        padding-left: 44%;
+    }
+    .flecha1{
+        width: 4%;
+    }
+    // Text Box
+    .bannerMorado{
+        background-color: $RHfondo;
+        color: $texto1;
+        font-size: 3vw;
+    }
+    .pbannerMorado{
+        margin: 0;
+        padding: 6% 0 6% 3.5%;
+        display: inline-block;
+    }
+    .flecha{
+        padding: 4%;
+        background-color: $pink;
+        float: right;
+    }
+    .flecha2{
+        width: 10px;
+    }
+    // Imagenes
+    .flecha3{
+        padding-bottom: 170%;
+        width: 50%;
+    }
+    .pngFlecha{
+        padding: 13% 11% 0%  15%;
+        width: 7%;
+        background-color: $purpple;
+        margin: 0;
+        display: inline-block;
+    }
+    .foto{
+        display: inline;
+    }
+    .img2{
+        width:33%;
+        margin: 0;
+        display: inline;
+    }
+    // Final
+    .boxGris{
+        background-color: $grayBox;
+    }
+    .h2{
+        color: $h2;
+        font-size: 3vw;
+        padding: 4%;
+        margin: 0;
+    }
+    .texto2{
+        display: block;
+        width: 40%;
+        color:$texto2;
+        padding-bottom: 5%;
+        margin:-6px;
+        font-size: 2vw;
+    }
+    .texto3{
+        display: block;
+        width: 40%;
+        color:$texto2;
+        padding-bottom: 5%;
+        margin: -6px;
+        font-size: 2vw;
+    } 
+    .box, .cuadro2{
+        float:left;
+        display: inline;
     }
 }

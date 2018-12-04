@@ -1,45 +1,50 @@
 //Container de Header
-.header{
-    background-color:$navegacion;
+body{
+    margin: 0;
+}
+#header{
+    background-color:$fondo1;
 }
 .textoHeader{
     margin: 0;
-    padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     display: inline-block;
-    color: $tNavegacion;
+    color:$texto1;
     font-size:4vw;
 }  
 .menu{
     display: none;
 }
 .logo{
-    width: 10%;
-    padding: 1.7%;
-    padding-right: 0;
+    width: 7%;
+    padding: 2.5%;
     background-color: $menu;
     float: right;
 }
-.logomenu{
-    width: 73%;
-}
 // Banner
+#contBannerAzul{
+    background-image: linear-gradient(to bottom right, $Adegradado1, $Adegradado2);
+}
 .bannerAzul{
     margin: 0;
-    background-image: linear-gradient(to bottom right, $degradado1, $degradado2);
-     padding-bottom: 30%;
+    padding-bottom: 30%;
+    max-width: 80%;
 }
 .h1{
     width: 81%;
-    color: $blanco1;
+    color: $blanco;
     font-size: 6vw;
     margin: 0;
     padding: 23% 6.8% 2% 7.5%;
 }
 .correo{
     text-decoration: none;
-    color: $blanco;
+    color: $grayBox;
     padding-left: 7.5%;
     font-size: 4vw;
+   float: left;
+   ;
 }
 .flechas{
     display: inline;
@@ -47,12 +52,15 @@
 }
 .flecha1{
     width: 4%;
+    padding-right: 12%;
 }
 // Text Box
 .bannerMorado{
-    background-color: $negro1;
+    background-color: $RHfondo;
     color: $texto1;
     font-size: 3vw;
+    padding: 2%;
+    margin: 0%;
 }
 .pbannerMorado{
     margin: 0;
@@ -60,9 +68,10 @@
     display: inline-block;
 }
 .flecha{
-    padding: 6%;
-    background-color: $rosado;
+    padding: 8%;
+    background-color: $pink;
     float: right;
+    margin: -2%;
 }
 .flecha2{
     width: 10px;
@@ -74,31 +83,35 @@
 .pngFlecha{
     padding: 39% 44% 39%  49%;
     width: 7%;
-    background-color: $morado;
+    background-color: $purpple;
     margin: 0;
 }
 .img2{
     width: 100%;
     margin: 0;
+    margin-top: -4px;
 }
 // Final
 #contGris{
-    background-color: $tNavegacion;
+    background-color:$grayBox;
 }
 .h2{
-    color: $tituloS;
+    color: $h2;
     font-size: 5vw;
-    padding: 12%;
+    padding-top: 12%;
     margin: 0;
 }
 .texto2{
     color:$texto2;
-    padding-left: 10%;
     padding-bottom: 10%;
-    padding-right:12%; 
     margin: 0;
     font-size: 4vw;
 }
 .texto3{
     display: none;
+}
+
+.boxGris{
+    margin-top: -4px;
+    
 }

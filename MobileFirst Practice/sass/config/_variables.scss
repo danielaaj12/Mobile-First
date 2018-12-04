@@ -6,21 +6,25 @@ $breakpoint-lg: 980px;
 $breakpoint-xl: 1024px;
 
 // Colores
-$texto1:#9282a0;
+$Tnavigation:#9282a0;
 // Mismo que el fonf¿do del final
-$tNavegacion:#ebebeb;
-$navegacion:#373c3f;
+$texto1:#ebebeb;
+$fondo1:#373c3f;
 $menu:#202529; 
-$degradado1:#19b4c6;
-$degradado2:#078aa4;
-$negro1:#27212c;
-$rosado:#bc3183;
-$morado:#5b0fa1;
-$tituloS:#088ca5;
+$Adegradado1:#19b4c6;
+$Adegradado2:#078aa4;
+$RHfondo:#27212c;
+$pink:#bc3183;
+$purpple:#5b0fa1;
+$h2:#088ca5;
 $texto2:#515151;
-$blanco1:#ffffff;
+$blanco:#ffffff;
+
+//Estilos de Fuentes
+$Montserrat: 'Montserrat', 'sans-serif';
+
 // Correo tiene una opacidad de 50
-$blanco:rgba(255, 255, 255, 0.5); 
+$grayBox:rgba(255, 255, 255, 0.9); 
 
 // Medida General
 $fzparem:16px;
