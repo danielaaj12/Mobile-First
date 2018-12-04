@@ -19,7 +19,7 @@
   float: right; }
 
 .logomenu {
-  width: 76%; }
+  width: 73%; }
 
 .bannerAzul {
   margin: 0;
@@ -97,94 +97,131 @@
 .texto3 {
   display: none; }
 
-@media (min-width: 980px) {
-  #header .navegation {
+@media (min-width: 980px) and (min-width: 980px) {
+  .menuHeader {
     background-color: #373c3f; }
-  #header .menuHeader {
-    display: none;
-    color: #ebebeb; }
-  #header .menu {
-    display: block; }
-  #header .logomenu {
-    height: 20px;
-    width: 31px;
-    padding: 3%;
-    padding-right: 0;
-    background-color: #202529;
-    float: right; }
-  #header .logo {
-    width: 73%; }
 
-  #contBannerAzul .bannerAzul {
+  .textoHeader {
+    display: none; }
+
+  .menu {
+    padding: 2%;
+    margin: 0; }
+
+  .menu li {
+    display: inline; }
+
+  .menu li + li {
+    margin-left: 1%; }
+
+  .menu a {
+    color: #ebebeb;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+  .logo {
+    display: none; }
+
+  .logoMenu {
+    display: none;
+    float: right; }
+
+  .bannerAzul {
     margin: 0;
     background-image: linear-gradient(to bottom right, #19b4c6, #078aa4);
     padding-bottom: 30%; }
-  #contBannerAzul .h1 {
+
+  .h1 {
     width: 81%;
     color: #ffffff;
-    font-size: 1.0625rem;
+    font-size: 6vw;
     margin: 0;
     padding: 23% 6.8% 2% 7.5%; }
-  #contBannerAzul .correo {
+
+  .correo {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
     padding-left: 7.5%;
-    font-size: 0.625rem; }
-  #contBannerAzul .flechas {
-    float: right;
-    padding-right: 31%; }
-  #contBannerAzul .flecha1 {
-    width: 8px; }
+    font-size: 4vw; }
 
-  #ContbannerMorado .bannerMorado {
+  .flechas {
+    display: inline;
+    padding-left: 2%; }
+
+  .flecha1 {
+    width: 4%; }
+
+  .bannerMorado {
     background-color: #27212c;
     color: #9282a0;
-    font-size: 0.625rem; }
-  #ContbannerMorado .pbannerMorado {
+    font-size: 3vw; }
+
+  .pbannerMorado {
     margin: 0;
-    padding: 35px 0 35px 25px;
+    padding: 6% 0 6% 3.5%;
     display: inline-block; }
-  #ContbannerMorado .flecha {
-    padding: 34.5px;
+
+  .flecha {
+    padding: 4%;
     background-color: #bc3183;
     float: right; }
-  #ContbannerMorado .flecha2 {
+
+  .flecha2 {
     width: 10px; }
 
-  #imagenes .flecha3 {
-    width: 20px; }
-  #imagenes .foto1 {
-    padding: 120px 135px 120px  150px;
-    width: 20px;
+  .flecha3 {
+    padding-bottom: 170%;
+    width: 50%; }
+
+  .pngFlecha {
+    padding: 13% 11% 0%  15%;
+    width: 7%;
     background-color: #5b0fa1;
-    margin: 0; }
-  #imagenes .img1 {
-    width: 305px;
-    margin: 0; }
-  #imagenes .img2 {
-    display: none; }
-  #imagenes .img3 {
-    display: none; }
-  #imagenes .img4 {
-    display: none; }
-  #imagenes .foto {
+    margin: 0;
     display: inline-block; }
 
-  #final .fFinal {
-    background-color: #ebebeb; }
-  #final .tituloS {
-    color: #088ca5;
-    font-size: 0.875rem;
-    padding: 35px;
-    margin: 0; }
-  #final .texto2 {
-    color: #515151;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-right: 35px;
+  .foto {
+    display: inline; }
+
+  .img2 {
+    width: 33%;
     margin: 0;
-    font-size: 0.625rem; }
-  #final .texto3 {
-    display: none; } }
+    display: inline; }
+
+  .boxGris {
+    background-color: #ebebeb; }
+
+  .h2 {
+    color: #088ca5;
+    font-size: 3vw;
+    padding: 4%;
+    margin: 0; }
+
+  .box {
+    display: inline; }
+
+  .cuadro2 {
+    display: inline; }
+
+  .texto2 {
+    display: inline-block;
+    width: 40%;
+    color: #515151;
+    padding-left: 4%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    margin: -6px;
+    font-size: 2vw; }
+
+  .texto3 {
+    display: inline-block;
+    width: 40%;
+    color: #515151;
+    padding-left: 4%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    margin: -6px;
+    font-size: 2vw; } }
 
 /*# sourceMappingURL=style.css.map */
