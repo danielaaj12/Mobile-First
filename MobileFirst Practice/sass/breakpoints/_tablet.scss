@@ -95,33 +95,35 @@
         display: inline;
     }
     // Final
-    .boxGris{
+    .contGris{
         background-color: $grayBox;
+        .texto2{
+            display: none;
+        }
     }
-    .h2{
-        color: $h2;
-        font-size: 3vw;
-        padding: 4%;
-        margin: 0;
+    .texto1, .texto2{
+        float: left;
+        width: 44%;
     }
-    .texto2{
-        display: block;
-        width: 40%;
-        color:$texto2;
-        padding-bottom: 5%;
-        margin:-6px;
-        font-size: 2vw;
+    .boxGris{
+        padding-left: 12%;
+        padding-right: 12%;
+        h2{
+            color: $h2;
+            font-size: 1.1rem;
+            padding: 35px 0 26px 0;
+            
+        }
+        p{
+            color:$texto2;
+            padding-bottom: 37px;
+            font-size: 0.9rem;
+        }
+
     }
-    .texto3{
-        display: block;
-        width: 40%;
-        color:$texto2;
-        padding-bottom: 5%;
-        margin: -6px;
-        font-size: 2vw;
-    } 
-    .box, .cuadro2{
-        float:left;
-        display: inline;
-    }
+
+    
+    
+    
+    
 }
