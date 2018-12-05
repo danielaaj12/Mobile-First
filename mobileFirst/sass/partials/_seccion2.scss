@@ -1,0 +1,19 @@
+.section2{
+
+}
+.box1{
+    background-color: $backgroundPurple;
+    svg{
+        max-width: 10%;
+        padding: 46% 0 46% 0;
+    }
+    .containerSVG{
+        text-align: center;
+    }
+}
+.box2, .box3{
+    img{
+        width: 100%;  
+        display: block;   
+    }
+}

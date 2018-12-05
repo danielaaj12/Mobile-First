@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px; }
+
+body {
+  color: white;
+  font-family: "Montserrat", "sans-serif";
+  margin: 0 !important; }
+
+.container {
+  max-width: 94%;
+  padding: 0 4% 0 4%; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.cls-1 {
+  fill: none;
+  stroke: #fff;
+  linecap: round;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 2px; }
+
+.section1 {
+  margin: 0 auto; }
+  .section1 h2 {
+    float: left;
+    font-weight: normal;
+    padding-top: 14px;
+    font-size: 1rem;
+    color: #d1d2d2; }
+  .section1 img {
+    max-width: 15px;
+    padding: 14px; }
+
+.header {
+  background-color: #373c3f; }
+
+.hamburguer {
+  float: right;
+  background-color: #202529; }
+
+ul {
+  display: none;
+  padding-top: 20px; }
+  ul li {
+    color: #ebebeb;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 15px;
+    float: left;
+    font-size: 0.8rem; }
+
+.url a {
+  color: #acd8e1; }
+
+.slogan {
+  background-image: url("../img/backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .slogan .content {
+    padding-top: 58px;
+    padding-bottom: 53px; }
+    .slogan .content p {
+      font-size: 2rem; }
+  .slogan .icons {
+    width: 12px;
+    padding-left: 35%;
+    padding-top: 17px; }
+
+.svgSubmit {
+  background-color: #bc3183;
+  float: right;
+  width: 20%;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  text-align: center; }
+  .svgSubmit .icons {
+    width: 10px; }
+
+#search {
+  width: 72%;
+  background-color: #27212c;
+  border: none;
+  color: #9282a0;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-size: 0.9rem; }
+
+.box1 {
+  background-color: #5b0fa1; }
+  .box1 svg {
+    max-width: 10%;
+    padding: 46% 0 46% 0; }
+  .box1 .containerSVG {
+    text-align: center; }
+
+.box2 img, .box3 img {
+  width: 100%;
+  display: block; }
+
+.section3 {
+  background-color: #ebebeb; }
+  .section3 .texto2 {
+    display: none; }
+
+.texto1, .texto2 {
+  float: left;
+  width: 100%; }
+
+.containerTexto {
+  padding-left: 12%;
+  padding-right: 12%; }
+  .containerTexto h2 {
+    color: #088ca5;
+    font-size: 1.1rem;
+    padding: 35px 0 26px 0; }
+  .containerTexto p {
+    color: #515151;
+    font-size: 0.9rem;
+    padding-bottom: 37px; }
+
+@media (min-width: 768px) {
+  .none {
+    display: none; }
+
+  ul {
+    display: inline-block;
+    padding-top: 45px;
+    padding-bottom: 41px; }
+    ul li {
+      float: left;
+      color: #ebebeb;
+      padding: 15px; }
+
+  .url {
+    font-size: 1.8rem; }
+
+  .slogan .content {
+    padding-top: 190px;
+    padding-bottom: 160px; }
+    .slogan .content p {
+      font-size: 3rem; }
+  .slogan .icons {
+    width: 24px;
+    padding-top: 60px; }
+
+  .svgSubmit {
+    padding-top: 95px;
+    padding-bottom: 95px; }
+    .svgSubmit .icons {
+      width: 60px; }
+
+  #search {
+    width: 72%;
+    padding-top: 110px;
+    padding-bottom: 107px;
+    font-size: 2rem; }
+
+  .box1 svg {
+    padding: 38% 0 37% 0; }
+
+  .box {
+    width: 33.33%;
+    float: left; }
+
+  .texto2 {
+    display: block !important;
+    padding-top: 82px;
+    padding-left: 12%; }
+
+  .texto1, .texto2 {
+    width: 44%; }
+
+  .containerTexto {
+    padding-left: 12%;
+    padding-right: 12%; } }
+@media (min-width: 1024px) {
+  .containerTexto {
+    padding-left: 6%;
+    padding-right: 6%; }
+    .containerTexto h2 {
+      font-size: 1.5rem; }
+    .containerTexto p {
+      font-size: 1rem; }
+
+  .slogan .content {
+    padding-top: 205px;
+    padding-bottom: 168px; }
+    .slogan .content p {
+      font-size: 3.5rem; }
+  .slogan .url {
+    font-size: 2rem; }
+  .slogan .icons {
+    width: 27px;
+    padding-left: 30%; }
+
+  .texto1, .texto2 {
+    width: 47%; }
+
+  .texto2 {
+    padding-left: 6%; } }
+
+/*# sourceMappingURL=stilos.css.map */

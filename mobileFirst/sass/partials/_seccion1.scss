@@ -1,0 +1,76 @@
+.section1{
+    margin: 0 auto;
+    h2{
+        float: left;
+        font-weight: normal;
+        padding-top: 14px;
+        font-size: 1rem;
+        color: #d1d2d2;
+    }
+    img{
+        max-width: 15px;
+        padding: 14px;
+    }
+}
+.header{
+    background-color: $backgroundHeader;
+}
+.hamburguer{
+    float: right;
+    background-color: $backgroundHamburguer;
+}
+ul{
+    display: none;
+    padding-top: 20px;
+    li{
+        color: $backgroundTexto; 
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-right: 15px;
+        float: left;
+        font-size: 0.8rem;
+    }
+}
+.url{
+    a{
+        color: $colorFonUrl;
+    }
+}
+.slogan{
+    background-image: url("../img/backgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .content{
+        padding-top: 58px;
+        padding-bottom: 53px;
+        p{
+            font-size: 2rem;
+        }
+
+    }
+    .icons{
+        width: 12px;
+        padding-left: 35%;
+        padding-top: 17px;
+    }
+}
+.svgSubmit{
+    background-color: $backgroundSubmit;
+    float: right;
+    width: 20%;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    text-align: center;
+    .icons{
+        width: 10px;
+    }
+}
+#search{
+    width: 72%;
+    background-color: $backgroundInput;
+    border: none;
+    color: $colorFontInput;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 0.9rem;
+}
